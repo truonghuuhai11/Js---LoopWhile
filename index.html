@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vòng lặp while</title>
+</head>
+
+<body>
+    <h1>Các bài toán vòng lặp trong JavaScript</h1>
+
+    <!-- Tính tổng các số từ 1 đến 100 -->
+    <h2>Tính tổng các số từ 1 đến 100</h2>
+    <button onclick="tinhTong100()">Tính</button>
+    <p id="resultTong100"></p>
+
+    <!-- Tính tổng các số chia hết cho 3 bé hơn n -->
+    <h2>Tính tổng các số chia hết cho 3 bé hơn n</h2>
+    <label for="soN">Nhập số n: </label>
+    <input type="number" id="soN">
+    <button onclick="tinhTongChiaHetCho3()">Tính</button>
+    <p id="resultTongChiaHetCho3"></p>
+
+    <!-- In ra 100 số Fibonacci đầu tiên -->
+    <h2>In ra 100 số Fibonacci đầu tiên</h2>
+    <button onclick="inSoFibonacci()">In Fibonacci</button>
+    <p id="resultFibonacci"></p>
+
+    <!-- Kiểm tra số polinom -->
+    <h2>Kiểm tra số polinom</h2>
+    <label for="soPolinom">Nhập số cần kiểm tra: </label>
+    <input type="number" id="soPolinom">
+    <button onclick="kiemTraSoPolinom()">Kiểm tra</button>
+    <p id="resultPolinom"></p>
+
+    <!-- Liệt kê các số từ 100 đến 999 có tổng các chữ số chia hết cho 3 -->
+    <h2>Liệt kê các số từ 100 đến 999 có tổng các chữ số chia hết cho 3</h2>
+    <button onclick="lietKeSo()">Liệt kê</button>
+    <p id="resultLietKeSo"></p>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
